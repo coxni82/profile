@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@700&family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* @media (max-width: 440px) {
+  .container {
+    width: 200px;
+  }
+} */
+
+body {
+  background-color: #FBE079;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #EF6764;
+  font-size: 30px;
+}
+
+h1, h2 {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+
+}
+/* a i {
+color: red;
+} */
+
+a:hover{
+  text-transform: capitalize;
+}
+
+#banner {
+  border-top: 1px solid red;
+  border-right: 2px dotted black;
+  border-bottom: 1px dashed green;
+  border-left: 2px dotted black;
+}
+
+.card_white {
+width: 500px;
+margin: 0 auto;
+background-color: white;
+border-radius: 15px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 100px;
+}
